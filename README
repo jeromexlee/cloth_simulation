@@ -1,0 +1,22 @@
+Build project:
+Compiled in OSX 10.11.4, Macbook Pro.
+
+cd [project directory]
+cd build
+make
+./ simulation [1, 2, 3]
+
+[1, 2, 3] is the command line argument for switching scene.
+
+Scene 1:
+Curtain simulation, with collision detection with the ball.
+[W, A, S, D] Move the ball, in x-z plane.
+[J, K, I, L] Rotate the camera.
+[-, =] Zoom in/out.
+
+Scene 2:
+Running cubeman with a cape.
+[left arrow, right arrow] rotate camera in x axis.
+
+Scene 3:
+For fun.
